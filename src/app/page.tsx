@@ -1,5 +1,5 @@
 import Navigation from "@/components/Navigation";
-import HeroAenexz from "@/components/HeroAenexz";
+import HeroMinimal from "@/components/HeroMinimal";
 import KPIStats from "@/components/sections/KPIStats";
 import Programs from "@/components/sections/Programs";
 import JobGuarantee from "@/components/sections/JobGuarantee";
@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <Navigation />
       <main>
-        <HeroAenexz />
+        <HeroMinimal />
         <KPIStats />
         <Programs />
         <JobGuarantee />
